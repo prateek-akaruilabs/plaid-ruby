@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
   s.required_ruby_version = ">= 2.4.0"
 
-  s.add_runtime_dependency 'faraday', '~> 1.0', '>= 1.0.1'
+  s.add_runtime_dependency 'faraday'
 
   s.add_development_dependency 'rspec', '~> 3.6', '>= 3.6.0'
   s.add_development_dependency 'bundler', '~> 2.2.9'
